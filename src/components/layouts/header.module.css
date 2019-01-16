@@ -1,0 +1,40 @@
+.header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px rgba(100, 100, 100, 0.2);
+  color: #333333;
+}
+
+.header a,
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  width: 750px;
+}
+
+.navigation ul li:first-child {
+  flex: 1 1 auto;
+  font-size: 20px;
+  padding: 15px 0 15px 0;
+  position: relative;
+}
+
+.navigation ul li {
+  font-size: 14px;
+  padding: 18px 15px 18px 15px;
+}
+
+.navigation ul li.selected {
+  border-top: 4px solid #009688;
+  padding-top: 14px;
+}
